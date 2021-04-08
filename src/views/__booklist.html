@@ -1,0 +1,31 @@
+<div style="margin:155px;margin-top:-1px;">
+    <select  id="selection">
+        <option value="select">Select</option>
+        <option value="id">Id</option>
+        <option value="title">Title</option>
+        <option value="author">Author</option>
+        <option value="price">price</option>
+        <option value="rating">rating</option>
+    </select>
+    <input type="search" id="searching" placeholder="search here.." style="margin-left: 20px;width: 350px;height: 40px;">
+    <button style="height: 40px;width:100px;margin-left: 20px;color: white;background: rgb(76, 76, 240);border: none;border-radius: 15px;" onclick="search();">Search</button>
+    <!-- <button onchange="selectId();" style="height: 40px;width:100px;margin-left: 20px;color: white;background: rgb(76, 76, 240);border: none;border-radius: 15px;" onclick="search();">Search</button> -->
+    <h2>Book List</h2>
+    <table class="tablestyle">
+        <thead>
+            <tr class="tablestyle">
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="tablestyle" id="tablebody">
+            
+        </tbody>
+       
+       
+    </table>
+</div>
